@@ -186,7 +186,7 @@ SavageLoadCursorImage(
 	 * loading the cursor.
 	 */
 	volatile unsigned int i = ALT_STATUS_WORD0;
-	(void)i;	/* Not to be optimised out */
+	(void)i++;	/* Not to be optimised out */
     }
 }
 
